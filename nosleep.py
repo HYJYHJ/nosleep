@@ -27,7 +27,7 @@ for i in range(100000):
     if keyboard.is_pressed('esc'):
         print('手动结束')
         break
-    elif time_now == '2023-02-07 10:09:00':
+    elif time_now[0:16] == '2023-02-07 10:09':
         print('定时结束')
         break
     else:
