@@ -31,7 +31,7 @@ for i in range(100000):
         print('定时结束')
         break
     else:
-        pyautogui.typewrite(time_now, 0.05)
+        pyautogui.typewrite(time_now, 0.05) # 模拟键盘输入字符，速度0.05
         pyautogui.press('enter')
 
 print('结束')
